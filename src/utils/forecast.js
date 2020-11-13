@@ -16,7 +16,7 @@ const forecast=(latitude,longitude,callback)=>{
         // lat:body.location.lat,
         // lon:body.location.lon,
         // }
-        body.current.weather_descriptions[0]+'. It is Currently '+body.current.temperature+' degree out. If feels like '+body.current.feelslike+' degree. The humidity is '+body.current.humidity
+        body.current.weather_descriptions[0]+'. It is Currently '+body.current.temperature+' degree out. If feels like '+body.current.feelslike+' degree. The humidity is '+body.current.humidity+'%'
       )
     }
   })
